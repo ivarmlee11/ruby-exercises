@@ -17,4 +17,4 @@ def multiply_by(arr, element_multiplier)
   print new_arr
 end
 
-multiply_by([1,2,3], 5)
+multiply_by([1, 2, 3], 5)
