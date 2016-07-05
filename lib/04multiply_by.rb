@@ -9,3 +9,12 @@
 # > 5
 # > 10
 # > 15
+
+def multiply_by(arr, element_multiplier)
+  new_arr = arr.map do |element|
+    element * element_multiplier
+  end
+  print new_arr
+end
+
+multiply_by([1,2,3], 5)

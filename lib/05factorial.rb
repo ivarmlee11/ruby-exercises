@@ -9,3 +9,11 @@
 #
 # > 120
 #
+def factorial(n)
+  for i in (1..n) do
+    result = i * n
+  end
+  puts result
+end
+
+factorial(5)

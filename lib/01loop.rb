@@ -9,3 +9,8 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def print_times(statement, num)
+  puts statement * num
+end
+print_times('Hey', 3)
