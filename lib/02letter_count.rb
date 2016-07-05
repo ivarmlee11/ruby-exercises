@@ -9,8 +9,11 @@
 
 def letter_count(string)
   hash = Hash.new(0)
+  puts hash
   array = string.split('')
-  array.each { |element| hash[element] += 1 }
+  array.each do |element|
+    hash[element] += 1
+  end
   puts hash
 end
 
